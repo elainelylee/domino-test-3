@@ -1,0 +1,70 @@
+code-server (1.68.1, laxmi56p7400.workbench-analyze-team-sandbox.domino.tech, server-distro)
+Jupyter Extension Version: 2022.5.1001610507.
+Python Extension Version: 2022.16.1.
+Workspace folder /mnt/code
+info 16:5:53.948: ZMQ install verified.
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTest'
+info 16:5:54.444: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+info 16:5:54.548: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+info 16:5:54.764: Starting Jupyter Session id = 'startUsingPythonInterpreter:.jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher' (Python Path: /opt/conda, EnvType: Conda, EnvName: 'base', Version: 3.9.16) for '/mnt/code/john/test.ipynb' (disableUI=true)
+info 16:5:54.768: Creating raw notebook for resource '/mnt/code/john/test.ipynb'
+info 16:5:54.768: Computing working directory for resource '/mnt/code/john/test.ipynb'
+info 16:5:54.864: Starting raw kernel 'base (Python 3.9.16)' for interpreter /opt/conda/bin/python
+info 16:5:54.871: Kernel launching with ports 9001,9002,9003,9004,9005. Start port is 9000
+info 16:5:54.892: Preferred Remote kernel for /mnt/code/john/test.ipynb is undefined
+info 16:5:54.892: Find preferred kernel for /mnt/code/john/test.ipynb with metadata {"kernelspec":{"display_name":"Python 3.9.16 64-bit ('base': conda)","language":"python","name":"python3"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.9.16"},"orig_nbformat":4,"vscode":{"interpreter":{"hash":"d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe"}}} & preferred interpreter /bin/python
+info 16:5:54.901: Preferred Remote kernel for /mnt/code/john/test.ipynb is undefined
+info 16:5:54.901: Preferred kernel .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher is exact match
+info 16:5:54.904: PreferredConnection: .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher found for NotebookDocument: /mnt/code/john/test.ipynb
+info 16:5:55.7: Process Execution: > /opt/conda/bin/python -m pip list
+> /opt/conda/bin/python -m pip list
+info 16:5:55.23: Process Execution: > /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 16:5:55.52: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+info 16:5:55.251: Process Execution: > /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9004 --control=9002 --hb=9001 --Session.signature_scheme="hmac-sha256" --Session.key=b"3db9a537-62b8-4fd7-88e8-9d68f283c85d" --shell=9003 --transport="tcp" --iopub=9005 --f=/home/ubuntu/.local/share/jupyter/runtime/kernel-v2-543k5EUh1MW4Ywv.json
+> /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9004 --control=9002 --hb=9001 --Session.signature_scheme="hmac-sha256" --Session.key=b"3db9a537-62b8-4fd7-88e8-9d68f283c85d" --shell=9003 --transport="tcp" --iopub=9005 --f=/home/ubuntu/.local/share/jupyter/runtime/kernel-v2-543k5EUh1MW4Ywv.json
+info 16:5:55.252: Process Execution: cwd: /mnt/code/john
+cwd: /mnt/code/john
+info 16:5:55.324: ipykernel version 6.19.4 for /opt/conda/bin/python
+info 16:5:55.324: ipykernel location /opt/conda/lib/python3.9/site-packages/ipykernel/__init__.py for /opt/conda/bin/python
+warn 16:5:56.328: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+
+warn 16:5:56.328: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2499: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use '3db9a537-62b8-4fd7-88e8-9d68f283c85d' instead of 'b"3db9a537-62b8-4fd7-88e8-9d68f283c85d"'.
+  warn(
+
+info 16:5:56.342: Kernel Output: NOTE: When using the `ipython kernel` entry point, Ctrl-C will not work.
+
+To exit, you will have to explicitly quit this process, by either sending
+"quit" from a client, or using Ctrl-\ in UNIX-like environments.
+
+To read more about this, see https://github.com/ipython/ipython/issues/2049
+
+
+To connect another client to this kernel, use:
+    --existing kernel-v2-543k5EUh1MW4Ywv.json
+
+info 16:5:56.565: Started kernel base (Python 3.9.16), (Raw session started and connected)
+info 16:5:56.567: Finished connecting a95c8f8f-9957-424a-bd2e-9536e8c63062
+info 16:5:56.920: UpdateWorkingDirectoryAndPath in Kernel
+info 16:5:56.921: Executing silently Code (idle) = import os\nimport sys\n%cd "/mnt/code/john"\nif os.getcwd() not in sys.path:\nsys.path.insert(0, os.
+info 16:5:56.952: Executing silently Code (completed) = import os\nimport sys\n%cd "/mnt/code/john"\nif os.getcwd() not in sys.path:\nsys.path.insert(0, os.
+info 16:5:56.953: Waiting for idle on (kernel): b78f8059-517e-4888-829c-f32c6ab97d3c -> idle
+info 16:5:56.953: Finished waiting for idle on (kernel): b78f8059-517e-4888-829c-f32c6ab97d3c -> idle
+info 16:5:57.60: Preferred Remote kernel for /mnt/code/john/test.ipynb is undefined
+info 16:5:57.60: Find preferred kernel for /mnt/code/john/test.ipynb with metadata {"kernelspec":{"display_name":"Python 3.9.16 64-bit ('base': conda)","language":"python","name":"python3"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.9.16"},"orig_nbformat":4,"vscode":{"interpreter":{"hash":"d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe"}}} & preferred interpreter /bin/python
+info 16:5:57.65: Preferred Remote kernel for /mnt/code/john/test.ipynb is undefined
+info 16:5:57.65: Preferred kernel .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher is exact match
+info 16:5:57.75: Preferred Remote kernel for /mnt/code/john/test.ipynb is undefined
+info 16:6:0.111: Disposing kernel .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher for notebook /mnt/code/john/test.ipynb due to selection of another kernel or closing of the notebook
+info 16:6:0.111: Dispose Kernel '/mnt/code/john/test.ipynb' associated with '/mnt/code/john/test.ipynb'
+info 16:6:9.377: Shutting down notebooks for a95c8f8f-9957-424a-bd2e-9536e8c63062
+info 16:6:9.377: Disposing HostJupyterExecution 4d819c8d-62e1-4f1a-ac79-19a3fb852514
+info 16:6:9.377: Disposing super HostJupyterExecution 4d819c8d-62e1-4f1a-ac79-19a3fb852514
+info 16:6:9.377: Dispose Kernel '/mnt/code/john/test.ipynb' associated with '/mnt/code/john/test.ipynb'
+info 16:6:9.378: Disposing HostJupyterExecution 4d819c8d-62e1-4f1a-ac79-19a3fb852514
+info 16:6:9.378: Finished disposing HostJupyterExecution  4d819c8d-62e1-4f1a-ac79-19a3fb852514
+info 16:6:9.383: Cleaning up server cache 4d819c8d-62e1-4f1a-ac79-19a3fb852514
+info 16:6:9.383: Finished disposing HostJupyterExecution  4d819c8d-62e1-4f1a-ac79-19a3fb852514

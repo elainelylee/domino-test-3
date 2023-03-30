@@ -1,0 +1,10 @@
+[2023-03-27 23:26:22.114] [exthost] [info] Extension host with pid 618 started
+[2023-03-27 23:26:22.132] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Lock acquired.
+[2023-03-27 23:26:22.289] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-27 23:26:22.296] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-03-27 23:26:22.301] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-27 23:26:22.378] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-03-27 23:26:22.468] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-27 23:26:22.622] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-27 23:26:22.643] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-27 23:26:22.648] [exthost] [info] Eager extensions activated

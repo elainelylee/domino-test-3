@@ -1,0 +1,87 @@
+[2023-03-28 00:10:55.231] [remoteagent] [info] 
+
+
+
+
+[2023-03-28 00:10:55.231] [remoteagent] [info] Extension host agent started.
+[2023-03-28 00:10:56.495] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] New connection established.
+[2023-03-28 00:10:57.111] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] New connection established.
+[2023-03-28 00:10:57.139] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] <342> Launched Extension Host Process.
+[2023-03-28 00:10:59.322] [remoteagent] [info] Getting Manifest... ms-python.python
+[2023-03-28 00:10:59.322] [remoteagent] [info] Getting Manifest... ms-toolsai.jupyter-keymap
+[2023-03-28 00:11:00.438] [remoteagent] [info] Installing extension: ms-toolsai.jupyter-keymap
+[2023-03-28 00:11:00.765] [remoteagent] [info] Installing extension: ms-python.python
+[2023-03-28 00:11:00.765] [remoteagent] [info] Downloaded extension: ms-toolsai.jupyter-keymap /mnt/code/.vscode/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.1.0-universal
+[2023-03-28 00:11:01.290] [remoteagent] [info] Downloaded extension: ms-python.python /mnt/code/.vscode/CachedExtensionVSIXs/ms-python.python-2022.16.1-universal
+[2023-03-28 00:11:01.305] [remoteagent] [info] Extracted extension to /home/ubuntu/.local/share/code-server/extensions/.477dfa56-56b1-4c20-a73a-8e4c366ad0ee: ms-toolsai.jupyter-keymap
+[2023-03-28 00:11:01.312] [remoteagent] [info] Renamed to /home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal
+[2023-03-28 00:11:01.319] [remoteagent] [info] Extracting completed. ms-toolsai.jupyter-keymap
+[2023-03-28 00:11:01.324] [remoteagent] [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+[2023-03-28 00:11:06.177] [remoteagent] [info] Extracted extension to /home/ubuntu/.local/share/code-server/extensions/.e2101350-1170-41e3-9dc2-e7199408feff: ms-python.python
+[2023-03-28 00:11:06.189] [remoteagent] [info] Renamed to /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2022.16.1-universal
+[2023-03-28 00:11:06.222] [remoteagent] [info] Extracting completed. ms-python.python
+[2023-03-28 00:11:06.227] [remoteagent] [info] Extension installed successfully: ms-python.python
+[2023-03-28 00:11:06.421] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] <342> Starting WebSocket: RAW/api/kernels/67922cba-d2bf-4fdf-ba50-fc9a50cc6c8a
+Kernel: starting (67922cba-d2bf-4fdf-ba50-fc9a50cc6c8a)
+
+[2023-03-28 00:12:27.070] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-03-28 00:12:27.072] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:146:7923)
+    at process.emit (node:events:539:35)
+[2023-03-28 00:24:23.391] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2023-03-28 00:24:23.392] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has reconnected.
+[2023-03-28 00:24:23.652] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 00:29:00.906] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 00:29:01.012] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has reconnected.
+[2023-03-28 00:33:23.218] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has reconnected.
+[2023-03-28 00:33:23.315] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 00:35:10.072] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has reconnected.
+[2023-03-28 00:36:35.830] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 03:03:29.580] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has reconnected.
+[2023-03-28 03:03:34.640] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 04:58:37.767] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-03-28 04:58:37.770] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:146:7923)
+    at process.emit (node:events:539:35)
+[2023-03-28 04:58:43.149] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2023-03-28 04:58:43.149] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has reconnected.
+[2023-03-28 04:58:43.244] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 07:30:06.760] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 13:30:22.694] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-03-28 13:30:22.697] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:146:7923)
+    at process.emit (node:events:539:35)
+[2023-03-28 13:30:28.794] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2023-03-28 13:30:28.795] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 13:30:29.116] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has reconnected.
+[2023-03-28 14:20:42.310] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 14:20:42.604] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 15:00:23.050] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-03-28 15:00:23.053] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:146:7923)
+    at process.emit (node:events:539:35)
+[2023-03-28 15:00:28.696] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2023-03-28 15:00:28.696] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 15:00:28.779] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has reconnected.
+[2023-03-28 15:30:57.116] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has reconnected.
+[2023-03-28 15:31:01.960] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 16:05:46.560] [remoteagent] [info] [10.0.90.1][4dfa2b38][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-03-28 16:05:46.610] [remoteagent] [info] [10.0.90.1][40a3044e][ExtensionHostConnection] <342> Extension Host Process exited with code: 0, signal: null.
+[2023-03-28 16:05:51.223] [remoteagent] [info] [10.0.90.1][f1b66c76][ManagementConnection] New connection established.
+[2023-03-28 16:05:51.904] [remoteagent] [info] [10.0.90.1][e38e0d1a][ExtensionHostConnection] New connection established.
+[2023-03-28 16:05:51.940] [remoteagent] [info] [10.0.90.1][e38e0d1a][ExtensionHostConnection] <543> Launched Extension Host Process.
+[2023-03-28 16:05:56.500] [remoteagent] [info] [10.0.90.1][e38e0d1a][ExtensionHostConnection] <543> Starting WebSocket: RAW/api/kernels/b78f8059-517e-4888-829c-f32c6ab97d3c
+
+[2023-03-28 16:06:09.362] [remoteagent] [info] [10.0.90.1][f1b66c76][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-03-28 16:06:09.401] [remoteagent] [info] [10.0.90.1][e38e0d1a][ExtensionHostConnection] <543> Extension Host Process exited with code: 0, signal: null.
+[2023-03-28 21:56:46.510] [remoteagent] [info] [10.0.90.1][48f078d1][ManagementConnection] New connection established.
+[2023-03-28 21:56:47.422] [remoteagent] [info] [10.0.90.1][5a62e42e][ExtensionHostConnection] New connection established.
+[2023-03-28 21:56:47.437] [remoteagent] [info] [10.0.90.1][5a62e42e][ExtensionHostConnection] <687> Launched Extension Host Process.
+[2023-03-28 21:58:33.223] [remoteagent] [info] [10.0.90.1][5a62e42e][ExtensionHostConnection] <687> Starting WebSocket: RAW/api/kernels/5bb2a2c3-6595-49ba-b27d-fa866d74d6d2
+
+[2023-03-28 22:02:15.925] [remoteagent] [info] [10.0.90.1][5a62e42e][ExtensionHostConnection] <687> Starting WebSocket: RAW/api/kernels/70ef9210-70d5-4702-9e28-4b6394fe3d32
+
+[2023-03-28 22:02:15.929] [remoteagent] [info] [10.0.90.1][5a62e42e][ExtensionHostConnection] <687> Kernel: starting (70ef9210-70d5-4702-9e28-4b6394fe3d32)
+
+[2023-03-28 22:02:55.756] [remoteagent] [info] [10.0.90.1][48f078d1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-03-28 22:02:55.817] [remoteagent] [info] [10.0.90.1][5a62e42e][ExtensionHostConnection] <687> Extension Host Process exited with code: 0, signal: null.

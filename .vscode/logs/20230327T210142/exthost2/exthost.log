@@ -1,0 +1,23 @@
+[2023-03-27 21:08:28.672] [exthost] [info] Extension host with pid 382 started
+[2023-03-27 21:08:28.676] [exthost] [error] Error: EEXIST: file already exists, open '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock'
+[2023-03-27 21:08:28.684] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-27 21:08:28.691] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': The lock does not look stale, elapsed: 821 ms, giving up.
+[2023-03-27 21:08:28.696] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923-1/vscode.lock': Lock acquired.
+[2023-03-27 21:08:28.755] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-27 21:08:28.762] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-03-27 21:08:28.767] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-27 21:08:28.842] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-03-27 21:08:28.937] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-27 21:08:29.111] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-27 21:08:29.132] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-27 21:08:29.137] [exthost] [info] Eager extensions activated
+[2023-03-27 21:24:32.965] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-27 21:24:33.389] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-27 21:24:34.768] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2023-03-27 21:38:18.720] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2023-03-27 21:38:18.745] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2023-03-27 21:38:18.881] [exthost] [warning] DiagnosticCollection with name 'markdown' does already exist.
+[2023-03-27 21:38:19.032] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2023-03-27 21:50:06.252] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2023-03-27 21:50:06.252] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-03-27 21:50:06.287] [exthost] [info] Extension host with pid 382 exiting with code 0

@@ -1,0 +1,20 @@
+[2023-03-28 00:10:57.613] [exthost] [info] Extension host with pid 342 started
+[2023-03-28 00:10:57.618] [exthost] [error] Error: EEXIST: file already exists, open '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock'
+[2023-03-28 00:10:57.626] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-28 00:10:57.633] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': The pid 618 appears to be gone.
+[2023-03-28 00:10:57.633] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Deleting a stale lock.
+[2023-03-28 00:10:57.636] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Lock acquired.
+[2023-03-28 00:10:57.673] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-28 00:10:57.680] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-03-28 00:10:57.685] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-28 00:10:57.740] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-03-28 00:10:57.833] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-28 00:10:57.953] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-28 00:10:57.975] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-28 00:10:57.980] [exthost] [info] Eager extensions activated
+[2023-03-28 00:11:00.382] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+[2023-03-28 00:11:00.882] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'onNotebook:*'
+[2023-03-28 00:11:00.893] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-28 16:05:46.559] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2023-03-28 16:05:46.560] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-03-28 16:05:46.600] [exthost] [info] Extension host with pid 342 exiting with code 0

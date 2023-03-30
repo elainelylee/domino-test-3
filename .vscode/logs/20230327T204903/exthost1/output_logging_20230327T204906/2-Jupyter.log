@@ -1,0 +1,37 @@
+code-server (1.68.1, laxmi56p7400.workbench-analyze-team-sandbox.domino.tech, server-distro)
+Jupyter Extension Version: 2022.5.1001610507.
+Python Extension Version: 2021.12.1559732655.
+Workspace folder /mnt/code
+info 20:53:59.446: ZMQ install verified.
+info 20:54:0.55: LSP Notebooks experiment is disabled -- not in treatment group
+info 20:54:0.187: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+info 20:54:1.836: Activation Commands received source activate base for shell bash
+info 20:54:2.179: Preferred Remote kernel for /mnt/code/IceCreamModel.ipynb is undefined
+info 20:54:2.179: Find preferred kernel for /mnt/code/IceCreamModel.ipynb with metadata {"kernelspec":{"display_name":"Python 3","language":"python","name":"python3"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.7"}} & preferred interpreter /opt/conda/bin/python
+info 20:54:2.197: Preferred Remote kernel for /mnt/code/IceCreamModel.ipynb is undefined
+info 20:54:2.197: Preferred kernel .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher is exact match
+info 20:54:2.201: PreferredConnection: .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher found for NotebookDocument: /mnt/code/IceCreamModel.ipynb
+info 20:54:2.290: Preferred Remote kernel for /mnt/code/IceCreamModel.ipynb is undefined
+info 20:54:2.291: Preferred Remote kernel for /mnt/code/IceCreamModel.ipynb is undefined
+info 20:54:2.291: Find preferred kernel for /mnt/code/IceCreamModel.ipynb with metadata {"kernelspec":{"display_name":"Python 3","language":"python","name":"python3"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.7"}} & preferred interpreter /opt/conda/bin/python
+info 20:54:2.294: Preferred Remote kernel for /mnt/code/IceCreamModel.ipynb is undefined
+info 20:54:2.294: Preferred kernel .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher is exact match
+info 20:54:2.370: Process Execution: > /opt/conda/bin/python -m pip list
+> /opt/conda/bin/python -m pip list
+info 20:54:12.97: Preferred Remote kernel for /mnt/code/IceCreamModel.ipynb is undefined
+info 20:54:12.256: Preferred Remote kernel for /mnt/code/IceCreamModel.ipynb is undefined
+info 20:54:12.256: Find preferred kernel for /mnt/code/IceCreamModel.ipynb with metadata {"kernelspec":{"display_name":"Python 3","language":"python","name":"python3"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.7"}} & preferred interpreter /opt/conda/bin/python
+info 20:54:12.258: Preferred Remote kernel for /mnt/code/IceCreamModel.ipynb is undefined
+info 20:54:12.258: Preferred kernel .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher is exact match
+info 20:54:12.259: PreferredConnection: .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher found for NotebookDocument: /mnt/code/IceCreamModel.ipynb
+info 20:54:12.542: Preferred Remote kernel for /mnt/code/IceCreamModel.ipynb is undefined
+info 20:54:12.542: Find preferred kernel for /mnt/code/IceCreamModel.ipynb with metadata {"kernelspec":{"display_name":"Python 3","language":"python","name":"python3"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.7"}} & preferred interpreter /opt/conda/bin/python
+info 20:54:12.545: Preferred Remote kernel for /mnt/code/IceCreamModel.ipynb is undefined
+info 20:54:12.545: Preferred kernel .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher is exact match
+info 21:0:34.50: Shutting down notebooks for d46225dd-386b-41de-bcb8-84c318aec957
+info 21:0:34.51: Disposing HostJupyterExecution 528093c5-f437-4f96-8e51-0b037b2d1641
+info 21:0:34.51: Disposing super HostJupyterExecution 528093c5-f437-4f96-8e51-0b037b2d1641
+info 21:0:34.51: Disposing HostJupyterExecution 528093c5-f437-4f96-8e51-0b037b2d1641
+info 21:0:34.51: Finished disposing HostJupyterExecution  528093c5-f437-4f96-8e51-0b037b2d1641
+info 21:0:34.59: Cleaning up server cache 528093c5-f437-4f96-8e51-0b037b2d1641
+info 21:0:34.60: Finished disposing HostJupyterExecution  528093c5-f437-4f96-8e51-0b037b2d1641

@@ -1,0 +1,79 @@
+[2023-03-27 23:26:17.898] [remoteagent] [info] 
+
+
+
+
+[2023-03-27 23:26:17.898] [remoteagent] [info] Extension host agent started.
+[2023-03-27 23:26:20.158] [remoteagent] [info] [10.0.78.40][fae23265][ManagementConnection] New connection established.
+[2023-03-27 23:26:21.235] [remoteagent] [info] [10.0.78.40][fdfd3db9][ExtensionHostConnection] New connection established.
+[2023-03-27 23:26:21.256] [remoteagent] [info] [10.0.78.40][fdfd3db9][ExtensionHostConnection] <618> Launched Extension Host Process.
+[2023-03-27 23:26:25.014] [remoteagent] [info] Getting Manifest... ms-python.python
+[2023-03-27 23:26:25.014] [remoteagent] [info] Getting Manifest... ms-toolsai.jupyter-keymap
+[2023-03-27 23:26:25.932] [remoteagent] [info] Installing extension: ms-toolsai.jupyter-keymap
+[2023-03-27 23:26:26.272] [remoteagent] [info] Installing extension: ms-python.python
+[2023-03-27 23:26:26.273] [remoteagent] [info] Downloaded extension: ms-toolsai.jupyter-keymap /mnt/code/.vscode/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.1.0-universal
+[2023-03-27 23:26:26.624] [remoteagent] [info] Downloaded extension: ms-python.python /mnt/code/.vscode/CachedExtensionVSIXs/ms-python.python-2022.16.1-universal
+[2023-03-27 23:26:26.645] [remoteagent] [info] Extracted extension to /home/ubuntu/.local/share/code-server/extensions/.582a710b-0cb7-4d9b-b1ca-2a88810db50b: ms-toolsai.jupyter-keymap
+[2023-03-27 23:26:26.669] [remoteagent] [info] Renamed to /home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal
+[2023-03-27 23:26:26.672] [remoteagent] [info] Extracting completed. ms-toolsai.jupyter-keymap
+[2023-03-27 23:26:26.682] [remoteagent] [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+[2023-03-27 23:26:29.650] [remoteagent] [info] Extracted extension to /home/ubuntu/.local/share/code-server/extensions/.cbcc078e-804a-4bc7-8569-67b587803955: ms-python.python
+[2023-03-27 23:26:29.664] [remoteagent] [info] Renamed to /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2022.16.1-universal
+[2023-03-27 23:26:29.671] [remoteagent] [info] Extracting completed. ms-python.python
+[2023-03-27 23:26:29.674] [remoteagent] [info] Extension installed successfully: ms-python.python
+[2023-03-27 23:34:14.967] [remoteagent] [info] [10.0.78.40][1e2e04bf][ManagementConnection] New connection established.
+[2023-03-27 23:34:15.881] [remoteagent] [info] [10.0.78.40][c9b248e4][ExtensionHostConnection] New connection established.
+[2023-03-27 23:34:15.892] [remoteagent] [info] [10.0.78.40][c9b248e4][ExtensionHostConnection] <653> Launched Extension Host Process.
+[2023-03-27 23:34:17.015] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 12
+[2023-03-27 23:34:17.015] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 13
+[2023-03-27 23:34:17.015] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 14
+[2023-03-27 23:34:17.015] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 15
+[2023-03-27 23:34:17.015] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 16
+[2023-03-27 23:34:17.015] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 17
+[2023-03-27 23:34:17.015] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 18
+[2023-03-27 23:34:17.016] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 19
+[2023-03-27 23:34:17.016] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 20
+[2023-03-27 23:35:17.460] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 21
+[2023-03-27 23:35:17.460] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 22
+[2023-03-27 23:35:17.460] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 23
+[2023-03-27 23:35:17.460] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 24
+[2023-03-27 23:35:17.460] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 25
+[2023-03-27 23:35:17.461] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 26
+[2023-03-27 23:35:17.461] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 27
+[2023-03-27 23:35:17.461] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 28
+[2023-03-27 23:35:17.461] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 29
+[2023-03-27 23:35:17.461] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 30
+[2023-03-27 23:35:17.461] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 31
+[2023-03-27 23:35:17.461] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 32
+[2023-03-27 23:35:17.461] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 33
+[2023-03-27 23:39:48.339] [remoteagent] [info] [10.0.78.40][fae23265][ManagementConnection] The client has reconnected.
+[2023-03-28 00:04:59.960] [remoteagent] [info] [10.0.78.40][fdfd3db9][ExtensionHostConnection] The client has reconnected.
+[2023-03-28 00:09:00.553] [remoteagent] [info] [10.0.78.40][38aa3150][ManagementConnection] New connection established.
+[2023-03-28 00:09:01.138] [remoteagent] [info] [10.0.78.40][6cf9595f][ExtensionHostConnection] New connection established.
+[2023-03-28 00:09:01.139] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 34
+[2023-03-28 00:09:01.170] [remoteagent] [info] [10.0.78.40][6cf9595f][ExtensionHostConnection] <2985> Launched Extension Host Process.
+[2023-03-28 00:09:01.289] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 34
+[2023-03-28 00:09:01.290] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 35
+[2023-03-28 00:09:01.336] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 36
+[2023-03-28 00:09:01.379] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 37
+[2023-03-28 00:09:01.425] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 38
+[2023-03-28 00:09:01.462] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 39
+[2023-03-28 00:09:01.485] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 35
+[2023-03-28 00:09:01.504] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 40
+[2023-03-28 00:09:01.546] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 41
+[2023-03-28 00:09:01.550] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 36
+[2023-03-28 00:09:01.551] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 37
+[2023-03-28 00:09:01.553] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 38
+[2023-03-28 00:09:01.553] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 39
+[2023-03-28 00:09:01.554] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 40
+[2023-03-28 00:09:01.557] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 41
+[2023-03-28 00:09:01.598] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 42
+[2023-03-28 00:09:01.599] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 42
+[2023-03-28 00:09:01.636] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 43
+[2023-03-28 00:09:01.637] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 43
+[2023-03-28 00:09:01.672] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 44
+[2023-03-28 00:09:01.672] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 44
+[2023-03-28 00:09:32.590] [remoteagent] [info] [10.0.78.40][6cf9595f][ExtensionHostConnection] <2985> Starting WebSocket: RAW/api/kernels/fc285659-9093-49c4-8af6-55cd2be6fd82
+
+[2023-03-28 00:09:53.950] [remoteagent] [info] [10.0.78.40][6cf9595f][ExtensionHostConnection] <2985> Starting WebSocket: RAW/api/kernels/cea8e5cf-bfa9-4a3f-b026-a3d5a14108af
+

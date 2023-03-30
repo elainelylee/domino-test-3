@@ -1,0 +1,19 @@
+[2023-03-28 00:09:01.713] [exthost] [info] Extension host with pid 2985 started
+[2023-03-28 00:09:01.718] [exthost] [error] Error: EEXIST: file already exists, open '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock'
+[2023-03-28 00:09:01.724] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-28 00:09:01.731] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': The lock does not look stale, elapsed: 807 ms, giving up.
+[2023-03-28 00:09:01.732] [exthost] [error] Error: EEXIST: file already exists, open '/mnt/code/.vscode/User/workspaceStorage/-662f9923-1/vscode.lock'
+[2023-03-28 00:09:01.732] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-03-28 00:09:01.732] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923-1/vscode.lock': The lock does not look stale, elapsed: 825 ms, giving up.
+[2023-03-28 00:09:01.737] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923-2/vscode.lock': Lock acquired.
+[2023-03-28 00:09:01.772] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-28 00:09:01.779] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-03-28 00:09:01.785] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-28 00:09:01.843] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-03-28 00:09:01.936] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-28 00:09:02.069] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-28 00:09:02.091] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-28 00:09:02.096] [exthost] [info] Eager extensions activated
+[2023-03-28 00:09:17.364] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+[2023-03-28 00:09:17.877] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'onNotebook:*'
+[2023-03-28 00:09:17.893] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'

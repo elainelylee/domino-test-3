@@ -1,0 +1,49 @@
+[2023-03-27 21:01:42.384] [remoteagent] [info] 
+
+
+
+
+[2023-03-27 21:01:42.384] [remoteagent] [info] Extension host agent started.
+[2023-03-27 21:01:44.059] [remoteagent] [info] [10.0.65.40][b3ff3e9f][ManagementConnection] New connection established.
+[2023-03-27 21:01:44.936] [remoteagent] [info] [10.0.65.40][f8847081][ExtensionHostConnection] New connection established.
+[2023-03-27 21:01:44.965] [remoteagent] [info] [10.0.65.40][f8847081][ExtensionHostConnection] <347> Launched Extension Host Process.
+[2023-03-27 21:01:47.959] [remoteagent] [info] Getting Manifest... ms-python.python
+[2023-03-27 21:01:47.960] [remoteagent] [info] Getting Manifest... ms-toolsai.jupyter-keymap
+[2023-03-27 21:01:48.980] [remoteagent] [info] Installing extension: ms-toolsai.jupyter-keymap
+[2023-03-27 21:01:49.340] [remoteagent] [info] Downloaded extension: ms-toolsai.jupyter-keymap /mnt/code/.vscode/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.1.0-universal
+[2023-03-27 21:01:49.363] [remoteagent] [info] Extracted extension to /home/ubuntu/.local/share/code-server/extensions/.8f4d0db6-ef64-453f-9c14-0d48574a834e: ms-toolsai.jupyter-keymap
+[2023-03-27 21:01:49.367] [remoteagent] [info] Installing extension: ms-python.python
+[2023-03-27 21:01:49.438] [remoteagent] [info] Renamed to /home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal
+[2023-03-27 21:01:49.486] [remoteagent] [info] Extracting completed. ms-toolsai.jupyter-keymap
+[2023-03-27 21:01:49.537] [remoteagent] [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+[2023-03-27 21:01:49.563] [remoteagent] [warning] Overwriting user extension /home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-keymap-1.0.0-universal with /home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal.
+[2023-03-27 21:01:49.773] [remoteagent] [info] Downloaded extension: ms-python.python /mnt/code/.vscode/CachedExtensionVSIXs/ms-python.python-2022.16.1-universal
+[2023-03-27 21:01:52.497] [remoteagent] [info] Extracted extension to /home/ubuntu/.local/share/code-server/extensions/.a8fc1ba1-f029-4986-8dba-4fe187cb61da: ms-python.python
+[2023-03-27 21:01:52.511] [remoteagent] [info] Renamed to /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2022.16.1-universal
+[2023-03-27 21:01:52.517] [remoteagent] [info] Extracting completed. ms-python.python
+[2023-03-27 21:01:52.519] [remoteagent] [info] Extension installed successfully: ms-python.python
+[2023-03-27 21:08:26.782] [remoteagent] [info] [10.0.65.40][4512aeff][ManagementConnection] New connection established.
+[2023-03-27 21:08:27.755] [remoteagent] [info] [10.0.65.40][87fd63f6][ExtensionHostConnection] New connection established.
+[2023-03-27 21:08:27.780] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 12
+[2023-03-27 21:08:27.787] [remoteagent] [info] [10.0.65.40][87fd63f6][ExtensionHostConnection] <382> Launched Extension Host Process.
+[2023-03-27 21:08:28.009] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 13
+[2023-03-27 21:08:28.591] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 14
+[2023-03-27 21:08:28.605] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 15
+[2023-03-27 21:08:28.606] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 16
+[2023-03-27 21:08:28.606] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 17
+[2023-03-27 21:08:28.607] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 18
+[2023-03-27 21:08:28.607] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 19
+[2023-03-27 21:08:28.608] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 20
+[2023-03-27 21:08:28.609] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 21
+[2023-03-27 21:08:28.615] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 22
+[2023-03-27 21:08:33.507] [remoteagent] [info] [10.0.65.40][b3ff3e9f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-03-27 21:08:33.522] [remoteagent] [info] [10.0.65.40][f8847081][ExtensionHostConnection] <347> Extension Host Process exited with code: 0, signal: null.
+[2023-03-27 21:49:59.115] [remoteagent] [info] [10.0.65.40][4512aeff][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-03-27 21:49:59.118] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:146:7923)
+    at process.emit (node:events:539:35)
+[2023-03-27 21:50:04.035] [remoteagent] [info] [10.0.65.40][4512aeff][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2023-03-27 21:50:04.035] [remoteagent] [info] [10.0.65.40][4512aeff][ManagementConnection] The client has reconnected.
+[2023-03-27 21:50:04.175] [remoteagent] [info] [10.0.65.40][87fd63f6][ExtensionHostConnection] The client has reconnected.
+[2023-03-27 21:50:06.253] [remoteagent] [info] [10.0.65.40][4512aeff][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-03-27 21:50:06.297] [remoteagent] [info] [10.0.65.40][87fd63f6][ExtensionHostConnection] <382> Extension Host Process exited with code: 0, signal: null.

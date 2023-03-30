@@ -1,0 +1,26 @@
+[2023-03-28T16:05:52.780Z] Log level: Info
+[2023-03-28T16:05:52.783Z] [info] Validating found git in: git
+[2023-03-28T16:05:52.819Z] [info] Using git 2.39.1 from git
+[2023-03-28T16:05:52.871Z] > git rev-parse --show-toplevel [35ms]
+[2023-03-28T16:05:52.907Z] > git rev-parse --git-dir --git-common-dir [27ms]
+[2023-03-28T16:05:52.914Z] [info] Open repository: /mnt/code
+[2023-03-28T16:05:52.926Z] > git status -z -uall [4ms]
+[2023-03-28T16:05:52.932Z] > git symbolic-ref --short HEAD [2ms]
+[2023-03-28T16:05:52.938Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2023-03-28T16:05:52.950Z] > git remote --verbose [2ms]
+[2023-03-28T16:05:52.951Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2023-03-28T16:05:52.964Z] > git config --get commit.template [1ms]
+[2023-03-28T16:05:53.546Z] > git check-ignore -v -z --stdin [5ms]
+[2023-03-28T16:05:54.114Z] > git check-ignore -v -z --stdin [6ms]
+[2023-03-28T16:06:02.658Z] > git status -z -uall [3ms]
+[2023-03-28T16:06:02.668Z] > git symbolic-ref --short HEAD [1ms]
+[2023-03-28T16:06:02.678Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2023-03-28T16:06:02.697Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2023-03-28T16:06:02.698Z] > git remote --verbose [2ms]
+[2023-03-28T16:06:02.712Z] > git config --get commit.template [1ms]
+[2023-03-28T16:06:07.726Z] > git status -z -uall [3ms]
+[2023-03-28T16:06:07.735Z] > git symbolic-ref --short HEAD [1ms]
+[2023-03-28T16:06:07.746Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+[2023-03-28T16:06:07.764Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+[2023-03-28T16:06:07.765Z] > git remote --verbose [2ms]
+[2023-03-28T16:06:07.778Z] > git config --get commit.template [1ms]

@@ -1,0 +1,468 @@
+code-server (1.68.1, laxmi56p7400.workbench-analyze-team-sandbox.domino.tech, server-distro)
+Jupyter Extension Version: 2022.5.1001610507.
+Python Extension Version: 2022.16.1.
+Workspace folder /mnt/code
+info 0:9:18.283: ZMQ install verified.
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTest'
+info 0:9:18.798: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+info 0:9:18.907: Experiment status for python is {"enabled":true,"optInto":[],"optOutFrom":[]}
+error 0:9:19.166: Live Notebook not available for /mnt/code/john/test.ipynb
+error 0:9:19.354: Live Notebook not available for /mnt/code/john/test.ipynb
+error 0:9:19.420: Live Notebook not available for /mnt/code/john/test.ipynb
+error 0:9:19.487: Live Notebook not available for /mnt/code/john/test.ipynb
+error 0:9:19.644: Live Notebook not available for /mnt/code/john/test.ipynb
+error 0:9:19.881: Live Notebook not available for /mnt/code/john/test.ipynb
+error 0:9:20.104: Live Notebook not available for /mnt/code/john/test.ipynb
+error 0:9:20.167: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:20.655: Preferred Remote kernel for /mnt/code/john/test.ipynb is undefined
+info 0:9:20.655: Find preferred kernel for /mnt/code/john/test.ipynb with metadata {"orig_nbformat":4,"language_info":{"name":"python"}} & preferred interpreter /bin/python
+info 0:9:20.659: Preferred Remote kernel for /mnt/code/john/test.ipynb is undefined
+info 0:9:20.659: Preferred kernel .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher is exact match
+info 0:9:20.660: PreferredConnection: .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher found for NotebookDocument: /mnt/code/john/test.ipynb
+info 0:9:20.750: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+info 0:9:20.864: Preferred Remote kernel for /mnt/code/john/test.ipynb is undefined
+info 0:9:20.864: Find preferred kernel for /mnt/code/john/test.ipynb with metadata {"orig_nbformat":4,"language_info":{"name":"python"}} & preferred interpreter /bin/python
+info 0:9:20.866: Preferred Remote kernel for /mnt/code/john/test.ipynb is undefined
+info 0:9:20.866: Preferred kernel .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher is exact match
+info 0:9:20.874: Preferred Remote kernel for /mnt/code/john/test.ipynb is undefined
+info 0:9:21.766: Execute Cell 0 /mnt/code/john/test.ipynb
+info 0:9:21.769: Starting Jupyter Session id = 'startUsingPythonInterpreter:.jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher' (Python Path: , EnvType: Global, EnvName: '', Version: 3.8.10) for '/mnt/code/john/test.ipynb' (disableUI=false)
+info 0:9:21.771: Creating raw notebook for resource '/mnt/code/john/test.ipynb'
+info 0:9:21.771: Computing working directory for resource '/mnt/code/john/test.ipynb'
+info 0:9:21.775: Starting raw kernel 'Python 3.8.10 64-bit' for interpreter /bin/python
+info 0:9:21.783: Kernel launching with ports 9001,9002,9003,9004,9005. Start port is 9000
+info 0:9:22.120: Process Execution: > /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+warn 0:9:22.142: Stderr output when getting ipykernel version & path Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'ipykernel' for /bin/python
+info 0:9:22.196: Process Execution: > /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9004 --control=9002 --hb=9001 --Session.signature_scheme="hmac-sha256" --Session.key=b"68328baf-3f74-4c7c-b41a-a79614688f93" --shell=9003 --transport="tcp" --iopub=9005 --f=/home/ubuntu/.local/share/jupyter/runtime/kernel-v2-29857VM1sbituvLq.json
+> /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9004 --control=9002 --hb=9001 --Session.signature_scheme="hmac-sha256" --Session.key=b"68328baf-3f74-4c7c-b41a-a79614688f93" --shell=9003 --transport="tcp" --iopub=9005 --f=/home/ubuntu/.local/share/jupyter/runtime/kernel-v2-29857VM1sbituvLq.json
+info 0:9:22.196: Process Execution: cwd: /mnt/code/john
+cwd: /mnt/code/john
+warn 0:9:22.215: StdErr from Kernel Process /bin/python: No module named ipykernel_launcher
+
+error 0:9:22.218: Disposing kernel process due to an error [o [Error]: The kernel died. View Jupyter [log](command:jupyter.viewOutput) for further details. 
+Error: /bin/python: No module named ipykernel_launcher...
+	at ChildProcess.<anonymous> (/home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-2022.5.1001610507-universal/out/extension.node.js:2:557187)
+	at ChildProcess.emit (node:events:539:35)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)] {
+  category: 'kerneldied',
+  kernelConnectionMetadata: {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: {
+      specFile: '/home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-2022.5.1001610507-universal/temp/jupyter/kernels/python3810jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a/kernel.json',
+      interpreterPath: '/bin/python',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'python3810jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: 'Python 3.8.10 64-bit',
+      metadata: [Object],
+      env: {}
+    },
+    interpreter: {
+      sysPrefix: '/usr',
+      envType: 'Global',
+      envName: '',
+      architecture: 3,
+      sysVersion: '3.8.10 (default, Nov 14 2022, 12:59:47) \n[GCC 9.4.0]',
+      version: [Object],
+      displayName: 'Python 3.8.10 64-bit',
+      uri: [g]
+    },
+    id: '.jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '/bin/python: No module named ipykernel_launcher\n'
+}
+error 0:9:22.222: /bin/python: No module named ipykernel_launcher
+
+error 0:9:22.229: Failed to connect raw kernel session: Error: The kernel died. View Jupyter [log](command:jupyter.viewOutput) for further details. 
+Error: /bin/python: No module named ipykernel_launcher...
+warn 0:9:22.232: Error occurred while trying to start the kernel, options.disableUI=false [o [Error]: The kernel died. View Jupyter [log](command:jupyter.viewOutput) for further details. 
+Error: /bin/python: No module named ipykernel_launcher...
+	at ChildProcess.<anonymous> (/home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-2022.5.1001610507-universal/out/extension.node.js:2:557187)
+	at ChildProcess.emit (node:events:539:35)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)] {
+  category: 'kerneldied',
+  kernelConnectionMetadata: {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: {
+      specFile: '/home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-2022.5.1001610507-universal/temp/jupyter/kernels/python3810jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a/kernel.json',
+      interpreterPath: '/bin/python',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'python3810jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: 'Python 3.8.10 64-bit',
+      metadata: [Object],
+      env: {}
+    },
+    interpreter: {
+      sysPrefix: '/usr',
+      envType: 'Global',
+      envName: '',
+      architecture: 3,
+      sysVersion: '3.8.10 (default, Nov 14 2022, 12:59:47) \n[GCC 9.4.0]',
+      version: [Object],
+      displayName: 'Python 3.8.10 64-bit',
+      uri: [g]
+    },
+    id: '.jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '/bin/python: No module named ipykernel_launcher\n'
+}
+warn 0:9:22.233: Kernel Error, context = start [o [Error]: The kernel died. View Jupyter [log](command:jupyter.viewOutput) for further details. 
+Error: /bin/python: No module named ipykernel_launcher...
+	at ChildProcess.<anonymous> (/home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-2022.5.1001610507-universal/out/extension.node.js:2:557187)
+	at ChildProcess.emit (node:events:539:35)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)] {
+  category: 'kerneldied',
+  kernelConnectionMetadata: {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: {
+      specFile: '/home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-2022.5.1001610507-universal/temp/jupyter/kernels/python3810jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a/kernel.json',
+      interpreterPath: '/bin/python',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'python3810jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: 'Python 3.8.10 64-bit',
+      metadata: [Object],
+      env: {}
+    },
+    interpreter: {
+      sysPrefix: '/usr',
+      envType: 'Global',
+      envName: '',
+      architecture: 3,
+      sysVersion: '3.8.10 (default, Nov 14 2022, 12:59:47) \n[GCC 9.4.0]',
+      version: [Object],
+      displayName: 'Python 3.8.10 64-bit',
+      uri: [g]
+    },
+    id: '.jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '/bin/python: No module named ipykernel_launcher\n'
+}
+warn 0:9:22.236: Failed to delete connection file /home/ubuntu/.local/share/jupyter/runtime/kernel-v2-29857VM1sbituvLq.json [Error: ENOENT: no such file or directory, unlink '/home/ubuntu/.local/share/jupyter/runtime/kernel-v2-29857VM1sbituvLq.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'unlink',
+  path: '/home/ubuntu/.local/share/jupyter/runtime/kernel-v2-29857VM1sbituvLq.json'
+}
+info 0:9:22.350: Process Execution: > /bin/python -c "import ipykernel"
+> /bin/python -c "import ipykernel"
+info 0:9:22.371: installMissingDependencies /bin/python, ui.disabled=false for resource '/mnt/code/john/test.ipynb'
+info 0:9:22.426: Process Execution: > /bin/python -c "import ipykernel"
+> /bin/python -c "import ipykernel"
+error 0:9:22.478: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:22.520: Process Execution: > /bin/python -c "import pip"
+> /bin/python -c "import pip"
+info 0:9:22.558: Process Execution: > /bin/python -c "import pip"
+> /bin/python -c "import pip"
+info 0:9:22.651: Process Execution: > /bin/python -m pip install -U ipykernel
+> /bin/python -m pip install -U ipykernel
+info 0:9:23.13: Defaulting to user installation because normal site-packages is not writeable
+
+error 0:9:23.131: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:23.278: Collecting ipykernel
+
+error 0:9:23.291: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:23.328:   Downloading ipykernel-6.22.0-py3-none-any.whl (149 kB)
+
+info 0:9:23.350:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 150.0/150.0 kB 7.8 MB/s eta 0:00:00
+info 0:9:23.350: 
+
+error 0:9:23.475: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:23.495: Collecting ipython>=7.23.1
+
+info 0:9:23.508:   Downloading ipython-8.11.0-py3-none-any.whl (793 kB)
+
+info 0:9:23.533:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 793.3/793.3 kB 36.8 MB/s eta 0:00:00
+info 0:9:23.533: 
+
+error 0:9:23.555: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:23.585: Collecting packaging
+
+info 0:9:23.595:   Downloading packaging-23.0-py3-none-any.whl (42 kB)
+
+info 0:9:23.601:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.7/42.7 kB 10.0 MB/s eta 0:00:00
+info 0:9:23.601: 
+
+info 0:9:23.654: Collecting jupyter-core!=5.0.*,>=4.12
+
+info 0:9:23.666:   Downloading jupyter_core-5.3.0-py3-none-any.whl (93 kB)
+
+info 0:9:23.672:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.2/93.2 kB 23.4 MB/s eta 0:00:00
+info 0:9:23.673: 
+
+info 0:9:23.749: Collecting jupyter-client>=6.1.12
+
+info 0:9:23.760:   Downloading jupyter_client-8.1.0-py3-none-any.whl (102 kB)
+
+info 0:9:23.767:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 102.9/102.9 kB 26.1 MB/s eta 0:00:00
+info 0:9:23.767: 
+
+info 0:9:24.159: Collecting pyzmq>=20
+
+info 0:9:24.172:   Downloading pyzmq-25.0.2-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.1 MB)
+
+info 0:9:24.191:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 68.6 MB/s eta 0:00:00
+info 0:9:24.191: 
+
+info 0:9:24.222: Collecting matplotlib-inline>=0.1
+
+error 0:9:24.224: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:24.233:   Downloading matplotlib_inline-0.1.6-py3-none-any.whl (9.4 kB)
+
+info 0:9:24.277: Collecting nest-asyncio
+
+info 0:9:24.288:   Downloading nest_asyncio-1.5.6-py3-none-any.whl (5.2 kB)
+
+error 0:9:24.383: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:24.490: Collecting psutil
+
+info 0:9:24.500:   Downloading psutil-5.9.4-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (280 kB)
+
+info 0:9:24.509:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 280.2/280.2 kB 47.1 MB/s eta 0:00:00
+info 0:9:24.509: 
+
+error 0:9:24.562: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:24.596: Collecting tornado>=6.1
+
+info 0:9:24.604:   Downloading tornado-6.2-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (423 kB)
+
+info 0:9:24.616:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 424.0/424.0 kB 51.8 MB/s eta 0:00:00
+info 0:9:24.616: 
+
+error 0:9:24.657: Live Notebook not available for /mnt/code/john/test.ipynb
+error 0:9:24.740: Live Notebook not available for /mnt/code/john/test.ipynb
+error 0:9:24.833: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:24.866: Collecting debugpy>=1.6.5
+
+info 0:9:24.880:   Downloading debugpy-1.6.6-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+
+info 0:9:24.918:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 88.2 MB/s eta 0:00:00
+info 0:9:24.919: 
+
+info 0:9:24.969: Collecting traitlets>=5.4.0
+
+info 0:9:24.980:   Downloading traitlets-5.9.0-py3-none-any.whl (117 kB)
+
+info 0:9:24.988:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.4/117.4 kB 26.7 MB/s eta 0:00:00
+info 0:9:24.988: 
+
+error 0:9:24.993: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:25.15: Collecting comm>=0.1.1
+
+info 0:9:25.25:   Downloading comm-0.1.3-py3-none-any.whl (6.6 kB)
+
+error 0:9:25.44: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:25.150: Collecting backcall
+
+info 0:9:25.160:   Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+
+info 0:9:25.207: Collecting jedi>=0.16
+
+error 0:9:25.218: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:25.219:   Downloading jedi-0.18.2-py2.py3-none-any.whl (1.6 MB)
+
+info 0:9:25.241:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 82.2 MB/s eta 0:00:00
+info 0:9:25.242: 
+
+info 0:9:25.314: Collecting pygments>=2.4.0
+
+info 0:9:25.324:   Downloading Pygments-2.14.0-py3-none-any.whl (1.1 MB)
+
+info 0:9:25.344:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 68.9 MB/s eta 0:00:00
+info 0:9:25.344: 
+
+info 0:9:25.378: Collecting pexpect>4.3
+
+info 0:9:25.390:   Downloading pexpect-4.8.0-py2.py3-none-any.whl (59 kB)
+
+info 0:9:25.396:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 kB 13.3 MB/s eta 0:00:00
+info 0:9:25.396: 
+
+info 0:9:25.517: Collecting prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30
+
+info 0:9:25.529:   Downloading prompt_toolkit-3.0.38-py3-none-any.whl (385 kB)
+
+error 0:9:25.544: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:25.564:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 385.8/385.8 kB 54.1 MB/s eta 0:00:00
+info 0:9:25.564: 
+
+info 0:9:25.604: Collecting decorator
+
+info 0:9:25.615:   Downloading decorator-5.1.1-py3-none-any.whl (9.1 kB)
+
+info 0:9:25.651: Collecting pickleshare
+
+info 0:9:25.662:   Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+
+info 0:9:25.693: Collecting stack-data
+
+info 0:9:25.703:   Downloading stack_data-0.6.2-py3-none-any.whl (24 kB)
+
+info 0:9:25.830: Collecting importlib-metadata>=4.8.3
+
+info 0:9:25.841:   Downloading importlib_metadata-6.1.0-py3-none-any.whl (21 kB)
+
+info 0:9:25.881: Collecting python-dateutil>=2.8.2
+
+info 0:9:25.891:   Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+
+info 0:9:25.901:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 kB 37.4 MB/s eta 0:00:00
+info 0:9:25.901: 
+
+info 0:9:25.966: Collecting platformdirs>=2.5
+
+info 0:9:25.980:   Downloading platformdirs-3.2.0-py3-none-any.whl (14 kB)
+
+info 0:9:26.99: Collecting zipp>=0.5
+
+info 0:9:26.109:   Downloading zipp-3.15.0-py3-none-any.whl (6.8 kB)
+
+info 0:9:26.191: Collecting parso<0.9.0,>=0.8.0
+
+info 0:9:26.202:   Downloading parso-0.8.3-py2.py3-none-any.whl (100 kB)
+
+info 0:9:26.208:      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.8/100.8 kB 24.6 MB/s eta 0:00:00
+info 0:9:26.209: 
+
+info 0:9:26.239: Collecting ptyprocess>=0.5
+
+info 0:9:26.250:   Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+
+info 0:9:26.300: Collecting wcwidth
+
+info 0:9:26.310:   Downloading wcwidth-0.2.6-py2.py3-none-any.whl (29 kB)
+
+info 0:9:26.327: Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.8.2->jupyter-client>=6.1.12->ipykernel) (1.14.0)
+
+info 0:9:26.383: Collecting asttokens>=2.1.0
+
+info 0:9:26.394:   Downloading asttokens-2.2.1-py2.py3-none-any.whl (26 kB)
+
+info 0:9:26.421: Collecting pure-eval
+
+info 0:9:26.432:   Downloading pure_eval-0.2.2-py3-none-any.whl (11 kB)
+
+info 0:9:26.468: Collecting executing>=1.2.0
+
+info 0:9:26.479:   Downloading executing-1.2.0-py2.py3-none-any.whl (24 kB)
+
+info 0:9:26.915: Installing collected packages: wcwidth, pure-eval, ptyprocess, pickleshare, executing, backcall, zipp, traitlets, tornado, pyzmq, python-dateutil, pygments, psutil, prompt-toolkit, platformdirs, pexpect, parso, packaging, nest-asyncio, decorator, debugpy, asttokens, stack-data, matplotlib-inline, jupyter-core, jedi, importlib-metadata, comm, jupyter-client, ipython, ipykernel
+
+error 0:9:26.967: Live Notebook not available for /mnt/code/john/test.ipynb
+info 0:9:31.152: Successfully installed asttokens-2.2.1 backcall-0.2.0 comm-0.1.3 debugpy-1.6.6 decorator-5.1.1 executing-1.2.0 importlib-metadata-6.1.0 ipykernel-6.22.0 ipython-8.11.0 jedi-0.18.2 jupyter-client-8.1.0 jupyter-core-5.3.0 matplotlib-inline-0.1.6 nest-asyncio-1.5.6 packaging-23.0 parso-0.8.3 pexpect-4.8.0 pickleshare-0.7.5 platformdirs-3.2.0 prompt-toolkit-3.0.38 psutil-5.9.4 ptyprocess-0.7.0 pure-eval-0.2.2 pygments-2.14.0 python-dateutil-2.8.2 pyzmq-25.0.2 stack-data-0.6.2 tornado-6.2 traitlets-5.9.0 wcwidth-0.2.6 zipp-3.15.0
+
+info 0:9:31.157: 
+[notice] A new release of pip available: 22.3.1 -> 23.0.1
+[notice] To update, run: /bin/python -m pip install --upgrade pip
+
+info 0:9:31.384: Process Execution: > /bin/python -c "import ipykernel"
+> /bin/python -c "import ipykernel"
+info 0:9:31.594: Dispose Kernel '/mnt/code/john/test.ipynb' associated with '/mnt/code/john/test.ipynb'
+info 0:9:31.597: Starting Jupyter Session id = 'startUsingPythonInterpreter:.jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher' (Python Path: , EnvType: Global, EnvName: '', Version: 3.8.10) for '/mnt/code/john/test.ipynb' (disableUI=false)
+info 0:9:31.597: Creating raw notebook for resource '/mnt/code/john/test.ipynb'
+info 0:9:31.597: Computing working directory for resource '/mnt/code/john/test.ipynb'
+info 0:9:31.598: Starting raw kernel 'Python 3.8.10 64-bit' for interpreter /bin/python
+info 0:9:31.603: Kernel launching with ports 9009,9010,9011,9012,9013. Start port is 9000
+info 0:9:31.670: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+info 0:9:31.679: Process Execution: > /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 0:9:31.757: Process Execution: > /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9012 --control=9010 --hb=9009 --Session.signature_scheme="hmac-sha256" --Session.key=b"8bbd2fbe-d92d-4199-b39e-5170771e16e0" --shell=9011 --transport="tcp" --iopub=9013 --f=/home/ubuntu/.local/share/jupyter/runtime/kernel-v2-2985G0Eq0SYcl9kX.json
+> /bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9012 --control=9010 --hb=9009 --Session.signature_scheme="hmac-sha256" --Session.key=b"8bbd2fbe-d92d-4199-b39e-5170771e16e0" --shell=9011 --transport="tcp" --iopub=9013 --f=/home/ubuntu/.local/share/jupyter/runtime/kernel-v2-2985G0Eq0SYcl9kX.json
+info 0:9:31.757: Process Execution: cwd: /mnt/code/john
+cwd: /mnt/code/john
+info 0:9:31.896: ipykernel version 6.22.0 for /bin/python
+info 0:9:31.897: ipykernel location ~/.local/lib/python3.8/site-packages/ipykernel/__init__.py for /bin/python
+warn 0:9:32.407: StdErr from Kernel Process /home/ubuntu/.local/lib/python3.8/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+
+warn 0:9:32.407: StdErr from Kernel Process /home/ubuntu/.local/lib/python3.8/site-packages/traitlets/traitlets.py:2499: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use '8bbd2fbe-d92d-4199-b39e-5170771e16e0' instead of 'b"8bbd2fbe-d92d-4199-b39e-5170771e16e0"'.
+  warn(
+
+info 0:9:32.417: Kernel Output: NOTE: When using the `ipython kernel` entry point, Ctrl-C will not work.
+
+To exit, you will have to explicitly quit this process, by either sending
+"quit" from a client, or using Ctrl-\ in UNIX-like environments.
+
+To read more about this, see https://github.com/ipython/ipython/issues/2049
+
+
+To connect another client to this kernel, use:
+    --existing kernel-v2-2985G0Eq0SYcl9kX.json
+
+info 0:9:32.609: Started kernel Python 3.8.10 64-bit, (Raw session started and connected)
+info 0:9:32.611: Finished connecting c77f6732-85e8-48ad-b67c-310707397306
+info 0:9:32.763: UpdateWorkingDirectoryAndPath in Kernel
+info 0:9:32.763: Executing silently Code (idle) = import os\nimport sys\n%cd "/mnt/code/john"\nif os.getcwd() not in sys.path:\nsys.path.insert(0, os.
+info 0:9:32.782: Executing silently Code (completed) = import os\nimport sys\n%cd "/mnt/code/john"\nif os.getcwd() not in sys.path:\nsys.path.insert(0, os.
+info 0:9:32.782: Waiting for idle on (kernel): fc285659-9093-49c4-8af6-55cd2be6fd82 -> idle
+info 0:9:32.783: Finished waiting for idle on (kernel): fc285659-9093-49c4-8af6-55cd2be6fd82 -> idle
+info 0:9:33.117: Cancel all remaining cells true || Error || undefined
+info 0:9:33.117: Cancel pending cells
+info 0:9:33.117: Cell 0 executed with state Error
+info 0:9:41.254: Execute Cell 0 /mnt/code/john/test.ipynb
+info 0:9:41.318: Cancel all remaining cells true || Error || undefined
+info 0:9:41.318: Cancel pending cells
+info 0:9:41.318: Cell 0 executed with state Error
+info 0:9:51.257: Disposing kernel .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher for notebook /mnt/code/john/test.ipynb due to selection of another kernel or closing of the notebook
+info 0:9:51.257: Dispose Kernel '/mnt/code/john/test.ipynb' associated with '/mnt/code/john/test.ipynb'
+info 0:9:51.257: Cancel pending cells
+info 0:9:51.306: Starting Jupyter Session id = 'startUsingPythonInterpreter:.jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher' (Python Path: /opt/conda, EnvType: Conda, EnvName: 'base', Version: 3.9.16) for '/mnt/code/john/test.ipynb' (disableUI=true)
+info 0:9:51.307: Creating raw notebook for resource '/mnt/code/john/test.ipynb'
+info 0:9:51.307: Computing working directory for resource '/mnt/code/john/test.ipynb'
+info 0:9:51.317: Starting raw kernel 'base (Python 3.9.16)' for interpreter /opt/conda/bin/python
+info 0:9:51.329: Kernel launching with ports 9009,9010,9011,9012,9013. Start port is 9000
+info 0:9:52.92: Process Execution: > /opt/conda/bin/python -m pip list
+> /opt/conda/bin/python -m pip list
+info 0:9:52.123: Process Execution: > /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 0:9:52.136: Process Execution: > /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9012 --control=9010 --hb=9009 --Session.signature_scheme="hmac-sha256" --Session.key=b"8e194004-21fe-4dc6-ada2-90c962d11d42" --shell=9011 --transport="tcp" --iopub=9013 --f=/home/ubuntu/.local/share/jupyter/runtime/kernel-v2-2985z7Kl3zUOwbt8.json
+> /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9012 --control=9010 --hb=9009 --Session.signature_scheme="hmac-sha256" --Session.key=b"8e194004-21fe-4dc6-ada2-90c962d11d42" --shell=9011 --transport="tcp" --iopub=9013 --f=/home/ubuntu/.local/share/jupyter/runtime/kernel-v2-2985z7Kl3zUOwbt8.json
+info 0:9:52.136: Process Execution: cwd: /mnt/code/john
+cwd: /mnt/code/john
+info 0:9:52.667: Execute Cell 0 /mnt/code/john/test.ipynb
+info 0:9:52.768: ipykernel version 6.19.4 for /opt/conda/bin/python
+info 0:9:52.769: ipykernel location /opt/conda/lib/python3.9/site-packages/ipykernel/__init__.py for /opt/conda/bin/python
+warn 0:9:53.825: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+
+warn 0:9:53.825: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2499: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use '8e194004-21fe-4dc6-ada2-90c962d11d42' instead of 'b"8e194004-21fe-4dc6-ada2-90c962d11d42"'.
+  warn(
+
+info 0:9:53.847: Kernel Output: NOTE: When using the `ipython kernel` entry point, Ctrl-C will not work.
+
+To exit, you will have to explicitly quit this process, by either sending
+"quit" from a client, or using Ctrl-\ in UNIX-like environments.
+
+To read more about this, see https://github.com/ipython/ipython/issues/2049
+
+
+To connect another client to this kernel, use:
+    --existing kernel-v2-2985z7Kl3zUOwbt8.json
+
+info 0:9:53.967: Started kernel base (Python 3.9.16), (Raw session started and connected)
+info 0:9:53.968: Finished connecting c77f6732-85e8-48ad-b67c-310707397306
+info 0:9:54.181: UpdateWorkingDirectoryAndPath in Kernel
+info 0:9:54.182: Executing silently Code (idle) = import os\nimport sys\n%cd "/mnt/code/john"\nif os.getcwd() not in sys.path:\nsys.path.insert(0, os.
+info 0:9:54.243: Executing silently Code (completed) = import os\nimport sys\n%cd "/mnt/code/john"\nif os.getcwd() not in sys.path:\nsys.path.insert(0, os.
+info 0:9:54.244: Waiting for idle on (kernel): cea8e5cf-bfa9-4a3f-b026-a3d5a14108af -> idle
+info 0:9:54.244: Finished waiting for idle on (kernel): cea8e5cf-bfa9-4a3f-b026-a3d5a14108af -> idle
+info 0:9:55.954: Cell 0 executed with state Success
+info 0:9:58.118: Execute Cell 1 /mnt/code/john/test.ipynb
+info 0:9:58.380: Cell 1 executed with state Success
+info 0:10:10.873: Execute Cell 2 /mnt/code/john/test.ipynb

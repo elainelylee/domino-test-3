@@ -1,0 +1,14 @@
+[2023-03-27T23:26:22.567Z] Log level: Info
+[2023-03-27T23:26:22.570Z] [info] Validating found git in: git
+[2023-03-27T23:26:22.605Z] [info] Using git 2.39.1 from git
+[2023-03-27T23:26:22.650Z] > git rev-parse --show-toplevel [31ms]
+[2023-03-27T23:26:22.680Z] > git rev-parse --git-dir --git-common-dir [23ms]
+[2023-03-27T23:26:22.688Z] [info] Open repository: /mnt/code
+[2023-03-27T23:26:22.704Z] > git status -z -uall [10ms]
+[2023-03-27T23:26:22.709Z] > git symbolic-ref --short HEAD [2ms]
+[2023-03-27T23:26:22.715Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2023-03-27T23:26:22.728Z] > git remote --verbose [5ms]
+[2023-03-27T23:26:22.728Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2023-03-27T23:26:22.738Z] > git config --get commit.template [1ms]
+[2023-03-27T23:26:23.400Z] > git check-ignore -v -z --stdin [1ms]
+[2023-03-28T00:09:11.646Z] > git check-ignore -v -z --stdin [1ms]

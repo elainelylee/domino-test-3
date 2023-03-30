@@ -1,0 +1,16 @@
+[2023-03-28 16:05:52.500] [exthost] [info] Extension host with pid 543 started
+[2023-03-28 16:05:52.517] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Lock acquired.
+[2023-03-28 16:05:52.555] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-28 16:05:52.562] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-03-28 16:05:52.567] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-28 16:05:52.617] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-03-28 16:05:52.709] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-28 16:05:52.837] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-28 16:05:52.859] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-28 16:05:52.864] [exthost] [info] Eager extensions activated
+[2023-03-28 16:05:52.999] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+[2023-03-28 16:05:53.465] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'onNotebook:*'
+[2023-03-28 16:05:53.558] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-28 16:06:09.361] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2023-03-28 16:06:09.362] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-03-28 16:06:09.388] [exthost] [info] Extension host with pid 543 exiting with code 0

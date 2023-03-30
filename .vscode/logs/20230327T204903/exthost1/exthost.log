@@ -1,0 +1,16 @@
+[2023-03-27 20:49:06.981] [exthost] [info] Extension host with pid 752 started
+[2023-03-27 20:49:06.999] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Lock acquired.
+[2023-03-27 20:49:07.061] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-27 20:49:07.067] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2023-03-27 20:49:07.072] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-27 20:49:07.145] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-27 20:49:07.239] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-27 20:49:07.260] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-27 20:49:07.266] [exthost] [info] Eager extensions activated
+[2023-03-27 20:49:32.961] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2023-03-27 20:53:58.675] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+[2023-03-27 20:53:59.150] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'onNotebook:*'
+[2023-03-27 20:53:59.159] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-27 21:00:34.028] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2023-03-27 21:00:34.029] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-03-27 21:00:34.065] [exthost] [info] Extension host with pid 752 exiting with code 0

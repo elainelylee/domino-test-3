@@ -1,0 +1,25 @@
+[2023-03-28 21:56:48.246] [exthost] [info] Extension host with pid 687 started
+[2023-03-28 21:56:48.264] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Lock acquired.
+[2023-03-28 21:56:48.363] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-03-28 21:56:48.369] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-03-28 21:56:48.374] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-03-28 21:56:48.452] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-03-28 21:56:48.544] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-03-28 21:56:48.699] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-28 21:56:48.720] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-03-28 21:56:48.726] [exthost] [info] Eager extensions activated
+[2023-03-28 21:58:13.428] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+[2023-03-28 21:58:13.901] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'onNotebook:*'
+[2023-03-28 21:58:13.913] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2023-03-28 21:58:14.498] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2023-03-28 21:58:14.519] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2023-03-28 21:58:15.070] [exthost] [warning] DiagnosticCollection with name 'markdown' does already exist.
+[2023-03-28 21:58:15.297] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2023-03-28 22:02:55.761] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2023-03-28 22:02:55.762] [exthost] [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-662f9923/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-03-28 22:02:55.800] [exthost] [error] Error: The kernel died. View Jupyter [log](command:jupyter.viewOutput) for further details. 
+Error: /bin/python: No module named ipykernel_launcher...
+	at ChildProcess.<anonymous> (/home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-2022.5.1001610507-universal/out/extension.node.js:2:557187)
+	at ChildProcess.emit (node:events:539:35)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+[2023-03-28 22:02:55.805] [exthost] [info] Extension host with pid 687 exiting with code 0

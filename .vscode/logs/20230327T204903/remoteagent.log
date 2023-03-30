@@ -1,0 +1,39 @@
+[2023-03-27 20:49:03.092] [remoteagent] [info] 
+
+
+
+
+[2023-03-27 20:49:03.092] [remoteagent] [info] Extension host agent started.
+[2023-03-27 20:49:04.927] [remoteagent] [info] [10.0.80.189][3e131620][ManagementConnection] New connection established.
+[2023-03-27 20:49:05.229] [remoteagent] [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+[2023-03-27 20:49:06.036] [remoteagent] [info] [10.0.80.189][8acd20e5][ExtensionHostConnection] New connection established.
+[2023-03-27 20:49:06.065] [remoteagent] [info] [10.0.80.189][8acd20e5][ExtensionHostConnection] <752> Launched Extension Host Process.
+[2023-03-27 20:49:08.764] [remoteagent] [info] Getting Manifest... ms-python.python
+[2023-03-27 20:49:08.764] [remoteagent] [info] Getting Manifest... ms-toolsai.jupyter-keymap
+[2023-03-27 20:49:09.665] [remoteagent] [info] Installing extension: ms-toolsai.jupyter-keymap
+[2023-03-27 20:49:09.959] [remoteagent] [info] Installing extension: ms-python.python
+[2023-03-27 20:49:11.260] [remoteagent] [info] Downloaded extension: ms-toolsai.jupyter-keymap /mnt/code/.vscode/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.1.0-universal
+[2023-03-27 20:49:11.282] [remoteagent] [info] Extracted extension to /home/ubuntu/.local/share/code-server/extensions/.ef5c4a91-152e-4938-8b79-d060d63c6cf4: ms-toolsai.jupyter-keymap
+[2023-03-27 20:49:11.287] [remoteagent] [info] Renamed to /home/ubuntu/.local/share/code-server/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal
+[2023-03-27 20:49:11.289] [remoteagent] [info] Extracting completed. ms-toolsai.jupyter-keymap
+[2023-03-27 20:49:11.293] [remoteagent] [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+[2023-03-27 20:49:13.901] [remoteagent] [info] Downloaded extension: ms-python.python /mnt/code/.vscode/CachedExtensionVSIXs/ms-python.python-2022.16.1-universal
+[2023-03-27 20:49:16.528] [remoteagent] [info] Extracted extension to /home/ubuntu/.local/share/code-server/extensions/.a2a669fc-ce4f-41dc-82ff-eda6441ff0a5: ms-python.python
+[2023-03-27 20:49:16.542] [remoteagent] [info] Renamed to /home/ubuntu/.local/share/code-server/extensions/ms-python.python-2022.16.1-universal
+[2023-03-27 20:49:16.548] [remoteagent] [info] Extracting completed. ms-python.python
+[2023-03-27 20:49:16.552] [remoteagent] [info] Extension installed successfully: ms-python.python
+[2023-03-27 21:00:27.330] [remoteagent] [info] [10.0.80.189][3e131620][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-03-27 21:00:27.333] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:146:7923)
+    at process.emit (node:events:539:35)
+[2023-03-27 21:00:33.044] [remoteagent] [info] [10.0.80.189][3e131620][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2023-03-27 21:00:33.045] [remoteagent] [info] [10.0.80.189][3e131620][ManagementConnection] The client has reconnected.
+[2023-03-27 21:00:33.052] [remoteagent] [info] [10.0.80.189][8acd20e5][ExtensionHostConnection] The client has reconnected.
+[2023-03-27 21:00:34.030] [remoteagent] [info] [10.0.80.189][3e131620][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-03-27 21:00:34.081] [remoteagent] [info] [10.0.80.189][8acd20e5][ExtensionHostConnection] <752> Extension Host Process exited with code: 0, signal: null.
